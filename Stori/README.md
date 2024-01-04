@@ -17,12 +17,13 @@ Before you begin, ensure you have met the following requirements:
    cd Challenges/Stori
    ```
 2. **Set up env variables**:
-In the .env file, make sure to setup your mail password, as well as modifying as needed the settings.py for the sender and receiver mail addresses. If your mail has 2FA enabled, you might need additional steps, for gmail for example, you will need to [add an app password](https://support.google.com/mail/answer/185833?hl=en) 
-3. **Build and run the app with Docker Compose**:
+In the .env.example file, make sure to setup your mail password, as well as modifying as needed the settings.py for the sender and receiver mail addresses. If your mail has 2FA enabled, you might need additional steps, for gmail for example, you will need to [add an app password](https://support.google.com/mail/answer/185833?hl=en)
+Once this is done, please rename it to .env
+4. **Build and run the app with Docker Compose**:
    ```bash
    docker-compose up --build
    ```
-4. **Install Alembic for migrations**:
+5. **Install Alembic for migrations**:
    ```bash
    pip install alembic
    ```
