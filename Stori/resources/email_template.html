@@ -1,0 +1,18 @@
+<html>
+    <head></head>
+    <body>
+        <h1>Account Summary</h1>
+        <p>Total balance: {{ total_balance }}</p>
+        <h2>Monthly Transactions</h2>
+        <ul>
+            {% for month, count in transactions_per_month.items() %}
+                <li>Number of transactions in {{ month }}: {{ count }}</li>
+            {% endfor %}
+        </ul>
+        <p>Average credit amount: {{ avg_credit_amount }}</p>
+        <p>Average debit amount: {{ avg_debit_amount }}</p>
+        <p>Best regards,</p>
+        <p>Your Finance Team</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Stori_logo.svg/1024px-Stori_logo.svg.png?20230414194516" alt="Company Logo">
+    </body>
+</html>
