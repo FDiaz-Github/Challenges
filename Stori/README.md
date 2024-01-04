@@ -12,7 +12,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Setup and Installation
 
-1. **Clone the Repository**:`
+1. **Clone the Repository**:
    ```bash
    cd Challenges/Stori
    ```
