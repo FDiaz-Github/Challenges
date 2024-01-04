@@ -19,6 +19,7 @@ In the .env file, make sure to setup your mail password, as well as modifying as
    ```bash
    docker-compose up --build
    ```
+   This should be done in the directory where this README file is.
 4. **Install Alembic for migrations**:
    ```bash
    pip install alembic
